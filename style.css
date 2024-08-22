@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    color: var(--blanco);
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5V7T2O1WgGVW0hs2C4qzD3NBKxXPXOb0slOM0PebLURCssRqEkL5N3Kdodl1CKOpFoFHn0gVmfzxm6eILsWWT3Drt7yldm8IrwDe05TlcFa5mhiXUi6u7mrCgzFWi-I4DZUQfguc3D2rbGTp5BBwxdc4L4dggbvdadvg7G8OaOd2eAS4ZPTYpoMtyoA/d/v2-MINIMALIST-LANDSCAPE-SUN-4k.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(4, 160, 172);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-div {
+    font-size: 1.6rem;
+    width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+}
+
+.login-content {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.login-textInput {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    font-size: 1.6rem;
+    border-bottom: 2px solid white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+
+.login-submit {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: rgb(7, 129, 138);
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.login-submit:hover {
+    background-color: rgb(4, 160, 172);
+    transition: all 0.3s ease;
+}
+
+.login-alternative {
+    font-size: 1.3rem;
+}
